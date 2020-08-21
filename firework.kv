@@ -1,0 +1,11 @@
+#:kivy 1.11.0
+<FireworkAnimation>:
+    FloatLayout:
+        Button:
+            id: btn
+            pos_hint: {"x": 0.4, "bottom": 0}
+            size_hint: 0.2, 0.1
+            text: "Start Fireworks"
+            on_release: root.fire()
+            font_size: 20
+    
